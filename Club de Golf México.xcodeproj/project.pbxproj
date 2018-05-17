@@ -7,21 +7,164 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		081AFB2E208E9258001D7A5D /* no_sound.caf in Resources */ = {isa = PBXBuildFile; fileRef = 081AFB2D208E9258001D7A5D /* no_sound.caf */; };
+		08FC320C208D819D00DD164D /* GolfLinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08FC320B208D819D00DD164D /* GolfLinkViewController.swift */; };
+		7265A2E232B8F348F24C5349 /* Pods_Club_de_Golf_Me_xico.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB9C0CD28FF09CB400CBE1E /* Pods_Club_de_Golf_Me_xico.framework */; };
+		8400B0F220471A5400509978 /* EstadosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8400B0F120471A5400509978 /* EstadosViewController.swift */; };
+		8400B0F420471A6200509978 /* PagosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8400B0F320471A6200509978 /* PagosViewController.swift */; };
+		8400B0F72047288700509978 /* EstadosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8400B0F62047288700509978 /* EstadosTableViewCell.swift */; };
+		8400B0F920472E1900509978 /* FloatExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8400B0F820472E1900509978 /* FloatExtension.swift */; };
+		840159AE20867F6100BE8501 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 840159AD20867F6100BE8501 /* GoogleService-Info.plist */; };
+		84026A752038A612001E3693 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84026A742038A612001E3693 /* MainViewController.swift */; };
+		84026A772038CC50001E3693 /* CGMMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84026A762038CC50001E3693 /* CGMMainViewController.swift */; };
+		84026A792038E469001E3693 /* GolfViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84026A782038E469001E3693 /* GolfViewController.swift */; };
+		84026A7D203A102F001E3693 /* CGMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84026A7C203A102F001E3693 /* CGMViewController.swift */; };
+		84026A7F203ABDEE001E3693 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84026A7E203ABDEE001E3693 /* ProfileViewController.swift */; };
+		84026A82203B0ADD001E3693 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84026A81203B0ADD001E3693 /* SettingsViewController.swift */; };
+		84026A84203B146F001E3693 /* GeneralSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84026A83203B146F001E3693 /* GeneralSettingViewController.swift */; };
+		84026A86203B1511001E3693 /* NotificationSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84026A85203B1511001E3693 /* NotificationSettingViewController.swift */; };
+		84026A88203B1549001E3693 /* ImageSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84026A87203B1549001E3693 /* ImageSettingViewController.swift */; };
+		84026A8C203B1A77001E3693 /* SettingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84026A8A203B1A77001E3693 /* SettingTableViewCell.swift */; };
+		84026A8D203B1A77001E3693 /* SettingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84026A8B203B1A77001E3693 /* SettingTableViewCell.xib */; };
+		84026A90203B53A2001E3693 /* EditTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84026A8F203B53A2001E3693 /* EditTextViewController.swift */; };
+		84026A93203B5ADE001E3693 /* OptionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84026A92203B5ADE001E3693 /* OptionModel.swift */; };
+		84026A95203B65AD001E3693 /* SelectOptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84026A94203B65AD001E3693 /* SelectOptionViewController.swift */; };
+		84026A97203C2140001E3693 /* DBService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84026A96203C2140001E3693 /* DBService.swift */; };
+		84026A9A203C2EEF001E3693 /* SocioDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84026A99203C2EEF001E3693 /* SocioDB.swift */; };
+		84026A9C203C33F5001E3693 /* MensajeDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84026A9B203C33F5001E3693 /* MensajeDB.swift */; };
+		84026A9E203C34DD001E3693 /* TarjetasDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84026A9D203C34DD001E3693 /* TarjetasDB.swift */; };
+		84026AA2203C3718001E3693 /* ArchivosDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84026AA1203C3718001E3693 /* ArchivosDB.swift */; };
+		84026AA4203C378E001E3693 /* EstadosDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84026AA3203C378E001E3693 /* EstadosDB.swift */; };
+		84026AA6203C382C001E3693 /* PagosDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84026AA5203C382B001E3693 /* PagosDB.swift */; };
+		84026AA8203C3EC8001E3693 /* GaleriasDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84026AA7203C3EC8001E3693 /* GaleriasDB.swift */; };
+		84026AAA203C3F6D001E3693 /* ReservasDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84026AA9203C3F6D001E3693 /* ReservasDB.swift */; };
+		84026AAE203C5AEA001E3693 /* SocioType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84026AAD203C5AEA001E3693 /* SocioType.swift */; };
+		84026AB0203C602D001E3693 /* MensajeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84026AAF203C602D001E3693 /* MensajeType.swift */; };
+		84026AB2203C6EC4001E3693 /* TarjetasType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84026AB1203C6EC4001E3693 /* TarjetasType.swift */; };
+		84026AB4203C6F2F001E3693 /* ArchivosType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84026AB3203C6F2F001E3693 /* ArchivosType.swift */; };
+		84026AB6203C6FA0001E3693 /* EstadosType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84026AB5203C6FA0001E3693 /* EstadosType.swift */; };
+		84026AB8203C707E001E3693 /* PagosType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84026AB7203C707E001E3693 /* PagosType.swift */; };
+		84026ABA203C712A001E3693 /* GaleriasType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84026AB9203C712A001E3693 /* GaleriasType.swift */; };
+		84026ABC203C71C9001E3693 /* ReservasType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84026ABB203C71C9001E3693 /* ReservasType.swift */; };
+		840C410D2034C4FE0049DCC4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840C410C2034C4FE0049DCC4 /* LoginViewController.swift */; };
+		840C41112034DD940049DCC4 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840C41102034DD940049DCC4 /* UIColorExtension.swift */; };
+		840C41132034E09C0049DCC4 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840C41122034E09C0049DCC4 /* UIViewExtension.swift */; };
+		8420E52A203E606E002EA7A2 /* FinanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8420E529203E606E002EA7A2 /* FinanceViewController.swift */; };
+		8420E52C203E60A4002EA7A2 /* RestrauntViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8420E52B203E60A4002EA7A2 /* RestrauntViewController.swift */; };
+		8420E52E203E60C7002EA7A2 /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8420E52D203E60C7002EA7A2 /* GalleryViewController.swift */; };
+		8420E530203E6102002EA7A2 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8420E52F203E6102002EA7A2 /* MessageViewController.swift */; };
+		843C5CC5204749F200077FD6 /* EstadosDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843C5CC4204749F200077FD6 /* EstadosDetailViewController.swift */; };
+		843C5CC72047553400077FD6 /* PagosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843C5CC62047553400077FD6 /* PagosTableViewCell.swift */; };
+		843C5CC920475E5100077FD6 /* PagosDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843C5CC820475E5100077FD6 /* PagosDetailViewController.swift */; };
+		843C5CCB2047730300077FD6 /* PagosLastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843C5CCA2047730300077FD6 /* PagosLastViewController.swift */; };
+		845E84B920864D7B00764A1E /* golf_bounce.caf in Resources */ = {isa = PBXBuildFile; fileRef = 8430F4712086270B0002FD56 /* golf_bounce.caf */; };
+		845E84BA20864D7B00764A1E /* golf_fore.caf in Resources */ = {isa = PBXBuildFile; fileRef = 8430F4742086270B0002FD56 /* golf_fore.caf */; };
+		845E84BB20864D7B00764A1E /* golf_girl.caf in Resources */ = {isa = PBXBuildFile; fileRef = 8430F4752086270C0002FD56 /* golf_girl.caf */; };
+		845E84BC20864D7B00764A1E /* golf_swing.caf in Resources */ = {isa = PBXBuildFile; fileRef = 8430F4722086270B0002FD56 /* golf_swing.caf */; };
+		845E84BD20864D7B00764A1E /* golf_wood.caf in Resources */ = {isa = PBXBuildFile; fileRef = 8430F4732086270B0002FD56 /* golf_wood.caf */; };
+		8470FE8420441C4600DE1FB9 /* GalleryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8470FE8320441C4600DE1FB9 /* GalleryDetailViewController.swift */; };
+		8470FE91204507EB00DE1FB9 /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8470FE90204507EB00DE1FB9 /* SoundManager.swift */; };
 		84724E5C2034767400649C25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84724E5B2034767400649C25 /* AppDelegate.swift */; };
-		84724E5E2034767400649C25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84724E5D2034767400649C25 /* ViewController.swift */; };
 		84724E612034767400649C25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84724E5F2034767400649C25 /* Main.storyboard */; };
 		84724E632034767400649C25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84724E622034767400649C25 /* Assets.xcassets */; };
 		84724E662034767400649C25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84724E642034767400649C25 /* LaunchScreen.storyboard */; };
+		8493B7FB203768E000C5549D /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8493B7FA203768E000C5549D /* MenuViewController.swift */; };
+		84AB4D5E20427A0C007185F7 /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AB4D5D20427A0C007185F7 /* HelpViewController.swift */; };
+		84CD959720404BB10062527B /* ProcessMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CD959620404BB10062527B /* ProcessMessage.swift */; };
+		84CD959B204054B70062527B /* MessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CD9599204054B70062527B /* MessageTableViewCell.swift */; };
+		84CD959C204054B70062527B /* MessageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84CD959A204054B70062527B /* MessageTableViewCell.xib */; };
+		84CD959E20406DEA0062527B /* FormatterExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CD959D20406DEA0062527B /* FormatterExtension.swift */; };
+		84CD95A0204087C80062527B /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CD959F204087C80062527B /* UIImageExtension.swift */; };
+		84CD95A22040B4000062527B /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CD95A12040B4000062527B /* ImageViewController.swift */; };
+		84CD95A42040C0060062527B /* PDFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CD95A32040C0060062527B /* PDFViewController.swift */; };
+		84F08D63203CAAC80072D24D /* Krypt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F08D62203CAAC80072D24D /* Krypt.swift */; };
+		84F08D67203D61B40072D24D /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F08D66203D61B40072D24D /* WebService.swift */; };
+		84F08D69203D83070072D24D /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F08D68203D83070072D24D /* StringExtension.swift */; };
+		84F08D6B203E069B0072D24D /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F08D6A203E069B0072D24D /* DateExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		081AFB2D208E9258001D7A5D /* no_sound.caf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = no_sound.caf; path = "../../../../../../Volumes/VMware Shared Folders/Shared/Projects/no_sound.caf"; sourceTree = "<group>"; };
+		08F671FB208BAEEF009C5770 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		08F671FC208BAEF0009C5770 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		08FC320B208D819D00DD164D /* GolfLinkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GolfLinkViewController.swift; sourceTree = "<group>"; };
+		378305974ADC901D4565FE60 /* Pods-Club de Golf México.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Club de Golf México.release.xcconfig"; path = "Pods/Target Support Files/Pods-Club de Golf México/Pods-Club de Golf México.release.xcconfig"; sourceTree = "<group>"; };
+		8400B0F120471A5400509978 /* EstadosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstadosViewController.swift; sourceTree = "<group>"; };
+		8400B0F320471A6200509978 /* PagosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagosViewController.swift; sourceTree = "<group>"; };
+		8400B0F62047288700509978 /* EstadosTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstadosTableViewCell.swift; sourceTree = "<group>"; };
+		8400B0F820472E1900509978 /* FloatExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatExtension.swift; sourceTree = "<group>"; };
+		840159AD20867F6100BE8501 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		84026A742038A612001E3693 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		84026A762038CC50001E3693 /* CGMMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGMMainViewController.swift; sourceTree = "<group>"; };
+		84026A782038E469001E3693 /* GolfViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GolfViewController.swift; sourceTree = "<group>"; };
+		84026A7C203A102F001E3693 /* CGMViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGMViewController.swift; sourceTree = "<group>"; };
+		84026A7E203ABDEE001E3693 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		84026A81203B0ADD001E3693 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		84026A83203B146F001E3693 /* GeneralSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralSettingViewController.swift; sourceTree = "<group>"; };
+		84026A85203B1511001E3693 /* NotificationSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationSettingViewController.swift; sourceTree = "<group>"; };
+		84026A87203B1549001E3693 /* ImageSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSettingViewController.swift; sourceTree = "<group>"; };
+		84026A8A203B1A77001E3693 /* SettingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewCell.swift; sourceTree = "<group>"; };
+		84026A8B203B1A77001E3693 /* SettingTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingTableViewCell.xib; sourceTree = "<group>"; };
+		84026A8F203B53A2001E3693 /* EditTextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTextViewController.swift; sourceTree = "<group>"; };
+		84026A92203B5ADE001E3693 /* OptionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionModel.swift; sourceTree = "<group>"; };
+		84026A94203B65AD001E3693 /* SelectOptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectOptionViewController.swift; sourceTree = "<group>"; };
+		84026A96203C2140001E3693 /* DBService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBService.swift; sourceTree = "<group>"; };
+		84026A99203C2EEF001E3693 /* SocioDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocioDB.swift; sourceTree = "<group>"; };
+		84026A9B203C33F5001E3693 /* MensajeDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MensajeDB.swift; sourceTree = "<group>"; };
+		84026A9D203C34DD001E3693 /* TarjetasDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TarjetasDB.swift; sourceTree = "<group>"; };
+		84026AA1203C3718001E3693 /* ArchivosDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchivosDB.swift; sourceTree = "<group>"; };
+		84026AA3203C378E001E3693 /* EstadosDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstadosDB.swift; sourceTree = "<group>"; };
+		84026AA5203C382B001E3693 /* PagosDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagosDB.swift; sourceTree = "<group>"; };
+		84026AA7203C3EC8001E3693 /* GaleriasDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaleriasDB.swift; sourceTree = "<group>"; };
+		84026AA9203C3F6D001E3693 /* ReservasDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservasDB.swift; sourceTree = "<group>"; };
+		84026AAD203C5AEA001E3693 /* SocioType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocioType.swift; sourceTree = "<group>"; };
+		84026AAF203C602D001E3693 /* MensajeType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MensajeType.swift; sourceTree = "<group>"; };
+		84026AB1203C6EC4001E3693 /* TarjetasType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TarjetasType.swift; sourceTree = "<group>"; };
+		84026AB3203C6F2F001E3693 /* ArchivosType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchivosType.swift; sourceTree = "<group>"; };
+		84026AB5203C6FA0001E3693 /* EstadosType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstadosType.swift; sourceTree = "<group>"; };
+		84026AB7203C707E001E3693 /* PagosType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagosType.swift; sourceTree = "<group>"; };
+		84026AB9203C712A001E3693 /* GaleriasType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaleriasType.swift; sourceTree = "<group>"; };
+		84026ABB203C71C9001E3693 /* ReservasType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservasType.swift; sourceTree = "<group>"; };
+		840C410C2034C4FE0049DCC4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		840C41102034DD940049DCC4 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		840C41122034E09C0049DCC4 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		8420E529203E606E002EA7A2 /* FinanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceViewController.swift; sourceTree = "<group>"; };
+		8420E52B203E60A4002EA7A2 /* RestrauntViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestrauntViewController.swift; sourceTree = "<group>"; };
+		8420E52D203E60C7002EA7A2 /* GalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
+		8420E52F203E6102002EA7A2 /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		8430F4712086270B0002FD56 /* golf_bounce.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = golf_bounce.caf; sourceTree = "<group>"; };
+		8430F4722086270B0002FD56 /* golf_swing.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = golf_swing.caf; sourceTree = "<group>"; };
+		8430F4732086270B0002FD56 /* golf_wood.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = golf_wood.caf; sourceTree = "<group>"; };
+		8430F4742086270B0002FD56 /* golf_fore.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = golf_fore.caf; sourceTree = "<group>"; };
+		8430F4752086270C0002FD56 /* golf_girl.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = golf_girl.caf; sourceTree = "<group>"; };
+		843C5CC4204749F200077FD6 /* EstadosDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstadosDetailViewController.swift; sourceTree = "<group>"; };
+		843C5CC62047553400077FD6 /* PagosTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagosTableViewCell.swift; sourceTree = "<group>"; };
+		843C5CC820475E5100077FD6 /* PagosDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagosDetailViewController.swift; sourceTree = "<group>"; };
+		843C5CCA2047730300077FD6 /* PagosLastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagosLastViewController.swift; sourceTree = "<group>"; };
+		8470FE8320441C4600DE1FB9 /* GalleryDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryDetailViewController.swift; sourceTree = "<group>"; };
+		8470FE90204507EB00DE1FB9 /* SoundManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
 		84724E582034767400649C25 /* Club de Golf México.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Club de Golf México.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84724E5B2034767400649C25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		84724E5D2034767400649C25 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		84724E602034767400649C25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84724E622034767400649C25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84724E652034767400649C25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84724E672034767400649C25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8493B7FA203768E000C5549D /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		84AB4D5D20427A0C007185F7 /* HelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
+		84CD959620404BB10062527B /* ProcessMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessMessage.swift; sourceTree = "<group>"; };
+		84CD9599204054B70062527B /* MessageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageTableViewCell.swift; sourceTree = "<group>"; };
+		84CD959A204054B70062527B /* MessageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageTableViewCell.xib; sourceTree = "<group>"; };
+		84CD959D20406DEA0062527B /* FormatterExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormatterExtension.swift; sourceTree = "<group>"; };
+		84CD959F204087C80062527B /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		84CD95A12040B4000062527B /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		84CD95A32040C0060062527B /* PDFViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFViewController.swift; sourceTree = "<group>"; };
+		84F08D62203CAAC80072D24D /* Krypt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Krypt.swift; sourceTree = "<group>"; };
+		84F08D66203D61B40072D24D /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		84F08D68203D83070072D24D /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		84F08D6A203E069B0072D24D /* DateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		84F08D6C203E3C630072D24D /* Club de Golf México.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Club de Golf México.entitlements"; sourceTree = "<group>"; };
+		E65CA204305973512A4FE8D9 /* Pods-Club de Golf México.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Club de Golf México.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Club de Golf México/Pods-Club de Golf México.debug.xcconfig"; sourceTree = "<group>"; };
+		EAB9C0CD28FF09CB400CBE1E /* Pods_Club_de_Golf_Me_xico.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Club_de_Golf_Me_xico.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +172,173 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7265A2E232B8F348F24C5349 /* Pods_Club_de_Golf_Me_xico.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		40DC55B5024D98C17C4C73D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E65CA204305973512A4FE8D9 /* Pods-Club de Golf México.debug.xcconfig */,
+				378305974ADC901D4565FE60 /* Pods-Club de Golf México.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8400B0F0204719B200509978 /* Finance */ = {
+			isa = PBXGroup;
+			children = (
+				8400B0F52047285900509978 /* Cells */,
+				8420E529203E606E002EA7A2 /* FinanceViewController.swift */,
+				8400B0F120471A5400509978 /* EstadosViewController.swift */,
+				843C5CC4204749F200077FD6 /* EstadosDetailViewController.swift */,
+				8400B0F320471A6200509978 /* PagosViewController.swift */,
+				843C5CC820475E5100077FD6 /* PagosDetailViewController.swift */,
+				843C5CCA2047730300077FD6 /* PagosLastViewController.swift */,
+			);
+			path = Finance;
+			sourceTree = "<group>";
+		};
+		8400B0F52047285900509978 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				8400B0F62047288700509978 /* EstadosTableViewCell.swift */,
+				843C5CC62047553400077FD6 /* PagosTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		84026A80203B0A9E001E3693 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				84026A89203B1A5F001E3693 /* TableViewCells */,
+				84026A81203B0ADD001E3693 /* SettingsViewController.swift */,
+				84026A83203B146F001E3693 /* GeneralSettingViewController.swift */,
+				84026A85203B1511001E3693 /* NotificationSettingViewController.swift */,
+				84026A87203B1549001E3693 /* ImageSettingViewController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		84026A89203B1A5F001E3693 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				84026A8A203B1A77001E3693 /* SettingTableViewCell.swift */,
+				84026A8B203B1A77001E3693 /* SettingTableViewCell.xib */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		84026A8E203B537C001E3693 /* EditControllers */ = {
+			isa = PBXGroup;
+			children = (
+				84026A8F203B53A2001E3693 /* EditTextViewController.swift */,
+				84026A94203B65AD001E3693 /* SelectOptionViewController.swift */,
+			);
+			path = EditControllers;
+			sourceTree = "<group>";
+		};
+		84026A91203B5A9F001E3693 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				84026A92203B5ADE001E3693 /* OptionModel.swift */,
+				84026AAD203C5AEA001E3693 /* SocioType.swift */,
+				84026AAF203C602D001E3693 /* MensajeType.swift */,
+				84026AB1203C6EC4001E3693 /* TarjetasType.swift */,
+				84026AB3203C6F2F001E3693 /* ArchivosType.swift */,
+				84026AB5203C6FA0001E3693 /* EstadosType.swift */,
+				84026AB7203C707E001E3693 /* PagosType.swift */,
+				84026AB9203C712A001E3693 /* GaleriasType.swift */,
+				84026ABB203C71C9001E3693 /* ReservasType.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		84026A98203C2E69001E3693 /* DBService */ = {
+			isa = PBXGroup;
+			children = (
+				84026A96203C2140001E3693 /* DBService.swift */,
+				84026A99203C2EEF001E3693 /* SocioDB.swift */,
+				84026A9B203C33F5001E3693 /* MensajeDB.swift */,
+				84026A9D203C34DD001E3693 /* TarjetasDB.swift */,
+				84026AA1203C3718001E3693 /* ArchivosDB.swift */,
+				84026AA3203C378E001E3693 /* EstadosDB.swift */,
+				84026AA5203C382B001E3693 /* PagosDB.swift */,
+				84026AA7203C3EC8001E3693 /* GaleriasDB.swift */,
+				84026AA9203C3F6D001E3693 /* ReservasDB.swift */,
+			);
+			path = DBService;
+			sourceTree = "<group>";
+		};
+		840C410B2034C4EC0049DCC4 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8400B0F0204719B200509978 /* Finance */,
+				8470FE8220440F3100DE1FB9 /* Gallery */,
+				84026A80203B0A9E001E3693 /* Settings */,
+				84026A762038CC50001E3693 /* CGMMainViewController.swift */,
+				84026A7C203A102F001E3693 /* CGMViewController.swift */,
+				840C410C2034C4FE0049DCC4 /* LoginViewController.swift */,
+				8493B7FA203768E000C5549D /* MenuViewController.swift */,
+				84026A742038A612001E3693 /* MainViewController.swift */,
+				84026A782038E469001E3693 /* GolfViewController.swift */,
+				84026A7E203ABDEE001E3693 /* ProfileViewController.swift */,
+				8420E52B203E60A4002EA7A2 /* RestrauntViewController.swift */,
+				8420E52F203E6102002EA7A2 /* MessageViewController.swift */,
+				84CD95A12040B4000062527B /* ImageViewController.swift */,
+				84CD95A32040C0060062527B /* PDFViewController.swift */,
+				84AB4D5D20427A0C007185F7 /* HelpViewController.swift */,
+				08FC320B208D819D00DD164D /* GolfLinkViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		840C410F2034DD5E0049DCC4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				84CD959F204087C80062527B /* UIImageExtension.swift */,
+				84F08D6A203E069B0072D24D /* DateExtension.swift */,
+				840C41102034DD940049DCC4 /* UIColorExtension.swift */,
+				840C41122034E09C0049DCC4 /* UIViewExtension.swift */,
+				84F08D68203D83070072D24D /* StringExtension.swift */,
+				84CD959D20406DEA0062527B /* FormatterExtension.swift */,
+				8400B0F820472E1900509978 /* FloatExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8470FE8220440F3100DE1FB9 /* Gallery */ = {
+			isa = PBXGroup;
+			children = (
+				8420E52D203E60C7002EA7A2 /* GalleryViewController.swift */,
+				8470FE8320441C4600DE1FB9 /* GalleryDetailViewController.swift */,
+			);
+			path = Gallery;
+			sourceTree = "<group>";
+		};
+		8470FE852045074D00DE1FB9 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				081AFB2D208E9258001D7A5D /* no_sound.caf */,
+				8430F4712086270B0002FD56 /* golf_bounce.caf */,
+				8430F4742086270B0002FD56 /* golf_fore.caf */,
+				8430F4752086270C0002FD56 /* golf_girl.caf */,
+				8430F4722086270B0002FD56 /* golf_swing.caf */,
+				8430F4732086270B0002FD56 /* golf_wood.caf */,
+			);
+			path = sounds;
+			sourceTree = "<group>";
+		};
 		84724E4F2034767400649C25 = {
 			isa = PBXGroup;
 			children = (
 				84724E5A2034767400649C25 /* Club de Golf México */,
 				84724E592034767400649C25 /* Products */,
+				40DC55B5024D98C17C4C73D6 /* Pods */,
+				CF5BF7018EE6CA9B34F5D077 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +353,51 @@
 		84724E5A2034767400649C25 /* Club de Golf México */ = {
 			isa = PBXGroup;
 			children = (
+				8470FE852045074D00DE1FB9 /* sounds */,
+				84F08D6C203E3C630072D24D /* Club de Golf México.entitlements */,
+				84F08D61203CAAA30072D24D /* WebService */,
+				84026A98203C2E69001E3693 /* DBService */,
+				84026A91203B5A9F001E3693 /* DataModel */,
+				84026A8E203B537C001E3693 /* EditControllers */,
+				840C410F2034DD5E0049DCC4 /* Extensions */,
+				840C410B2034C4EC0049DCC4 /* ViewControllers */,
+				84CD9598204054890062527B /* MessageCell */,
 				84724E5B2034767400649C25 /* AppDelegate.swift */,
-				84724E5D2034767400649C25 /* ViewController.swift */,
 				84724E5F2034767400649C25 /* Main.storyboard */,
 				84724E622034767400649C25 /* Assets.xcassets */,
 				84724E642034767400649C25 /* LaunchScreen.storyboard */,
 				84724E672034767400649C25 /* Info.plist */,
+				840159AD20867F6100BE8501 /* GoogleService-Info.plist */,
 			);
 			path = "Club de Golf México";
+			sourceTree = "<group>";
+		};
+		84CD9598204054890062527B /* MessageCell */ = {
+			isa = PBXGroup;
+			children = (
+				84CD9599204054B70062527B /* MessageTableViewCell.swift */,
+				84CD959A204054B70062527B /* MessageTableViewCell.xib */,
+			);
+			path = MessageCell;
+			sourceTree = "<group>";
+		};
+		84F08D61203CAAA30072D24D /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+				8470FE90204507EB00DE1FB9 /* SoundManager.swift */,
+				84F08D62203CAAC80072D24D /* Krypt.swift */,
+				84F08D66203D61B40072D24D /* WebService.swift */,
+				84CD959620404BB10062527B /* ProcessMessage.swift */,
+			);
+			path = WebService;
+			sourceTree = "<group>";
+		};
+		CF5BF7018EE6CA9B34F5D077 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EAB9C0CD28FF09CB400CBE1E /* Pods_Club_de_Golf_Me_xico.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +407,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84724E6A2034767400649C25 /* Build configuration list for PBXNativeTarget "Club de Golf México" */;
 			buildPhases = (
+				348761929DDCECE0143F6437 /* [CP] Check Pods Manifest.lock */,
 				84724E542034767400649C25 /* Sources */,
 				84724E552034767400649C25 /* Frameworks */,
 				84724E562034767400649C25 /* Resources */,
+				DA480DC88ACC09F3D390082A /* [CP] Embed Pods Frameworks */,
+				5A0BB5F419F09872D28DDCA9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -97,6 +436,14 @@
 					84724E572034767400649C25 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -105,7 +452,6 @@
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
 			);
 			mainGroup = 84724E4F2034767400649C25;
@@ -123,21 +469,183 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				845E84BA20864D7B00764A1E /* golf_fore.caf in Resources */,
+				845E84BC20864D7B00764A1E /* golf_swing.caf in Resources */,
 				84724E662034767400649C25 /* LaunchScreen.storyboard in Resources */,
+				84CD959C204054B70062527B /* MessageTableViewCell.xib in Resources */,
+				845E84BB20864D7B00764A1E /* golf_girl.caf in Resources */,
 				84724E632034767400649C25 /* Assets.xcassets in Resources */,
+				845E84BD20864D7B00764A1E /* golf_wood.caf in Resources */,
+				84026A8D203B1A77001E3693 /* SettingTableViewCell.xib in Resources */,
+				840159AE20867F6100BE8501 /* GoogleService-Info.plist in Resources */,
+				081AFB2E208E9258001D7A5D /* no_sound.caf in Resources */,
+				845E84B920864D7B00764A1E /* golf_bounce.caf in Resources */,
 				84724E612034767400649C25 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		348761929DDCECE0143F6437 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Club de Golf México-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A0BB5F419F09872D28DDCA9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Club de Golf México/Pods-Club de Golf México-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA480DC88ACC09F3D390082A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Club de Golf México/Pods-Club de Golf México-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/BBBadgeBarButtonItem/BBBadgeBarButtonItem.framework",
+				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/DropDown/DropDown.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Gradientable/Gradientable.framework",
+				"${BUILT_PRODUCTS_DIR}/HMSegmentedControl/HMSegmentedControl.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/KYDrawerController/KYDrawerController.framework",
+				"${BUILT_PRODUCTS_DIR}/M13Checkbox/M13Checkbox.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/RIGImageGallery/RIGImageGallery.framework",
+				"${BUILT_PRODUCTS_DIR}/SQLite.swift/SQLite.framework",
+				"${BUILT_PRODUCTS_DIR}/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/XCDYouTubeKit/XCDYouTubeKit.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BBBadgeBarButtonItem.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DropDown.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Gradientable.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HMSegmentedControl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KYDrawerController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/M13Checkbox.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RIGImageGallery.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SQLite.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SkyFloatingLabelTextField.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XCDYouTubeKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Club de Golf México/Pods-Club de Golf México-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		84724E542034767400649C25 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84724E5E2034767400649C25 /* ViewController.swift in Sources */,
+				84026A84203B146F001E3693 /* GeneralSettingViewController.swift in Sources */,
+				84026AB8203C707E001E3693 /* PagosType.swift in Sources */,
+				8420E52C203E60A4002EA7A2 /* RestrauntViewController.swift in Sources */,
+				84026ABC203C71C9001E3693 /* ReservasType.swift in Sources */,
+				84026AB6203C6FA0001E3693 /* EstadosType.swift in Sources */,
+				84026A90203B53A2001E3693 /* EditTextViewController.swift in Sources */,
+				840C410D2034C4FE0049DCC4 /* LoginViewController.swift in Sources */,
+				84026A7D203A102F001E3693 /* CGMViewController.swift in Sources */,
+				84026A82203B0ADD001E3693 /* SettingsViewController.swift in Sources */,
+				843C5CCB2047730300077FD6 /* PagosLastViewController.swift in Sources */,
+				84026A97203C2140001E3693 /* DBService.swift in Sources */,
+				843C5CC920475E5100077FD6 /* PagosDetailViewController.swift in Sources */,
+				8420E52A203E606E002EA7A2 /* FinanceViewController.swift in Sources */,
+				84CD95A0204087C80062527B /* UIImageExtension.swift in Sources */,
+				84CD95A42040C0060062527B /* PDFViewController.swift in Sources */,
+				84026A7F203ABDEE001E3693 /* ProfileViewController.swift in Sources */,
+				08FC320C208D819D00DD164D /* GolfLinkViewController.swift in Sources */,
+				84026A9C203C33F5001E3693 /* MensajeDB.swift in Sources */,
+				8493B7FB203768E000C5549D /* MenuViewController.swift in Sources */,
+				84F08D63203CAAC80072D24D /* Krypt.swift in Sources */,
+				8470FE91204507EB00DE1FB9 /* SoundManager.swift in Sources */,
+				8420E52E203E60C7002EA7A2 /* GalleryViewController.swift in Sources */,
+				84026AB2203C6EC4001E3693 /* TarjetasType.swift in Sources */,
+				84026A8C203B1A77001E3693 /* SettingTableViewCell.swift in Sources */,
+				84026A792038E469001E3693 /* GolfViewController.swift in Sources */,
+				84F08D69203D83070072D24D /* StringExtension.swift in Sources */,
+				84026AA4203C378E001E3693 /* EstadosDB.swift in Sources */,
+				843C5CC5204749F200077FD6 /* EstadosDetailViewController.swift in Sources */,
+				84CD95A22040B4000062527B /* ImageViewController.swift in Sources */,
+				843C5CC72047553400077FD6 /* PagosTableViewCell.swift in Sources */,
+				84026A9E203C34DD001E3693 /* TarjetasDB.swift in Sources */,
+				84026AAE203C5AEA001E3693 /* SocioType.swift in Sources */,
+				84026AAA203C3F6D001E3693 /* ReservasDB.swift in Sources */,
+				84026A86203B1511001E3693 /* NotificationSettingViewController.swift in Sources */,
+				84026A9A203C2EEF001E3693 /* SocioDB.swift in Sources */,
+				84026AA2203C3718001E3693 /* ArchivosDB.swift in Sources */,
+				8400B0F420471A6200509978 /* PagosViewController.swift in Sources */,
+				84F08D67203D61B40072D24D /* WebService.swift in Sources */,
+				8470FE8420441C4600DE1FB9 /* GalleryDetailViewController.swift in Sources */,
+				84026ABA203C712A001E3693 /* GaleriasType.swift in Sources */,
+				8420E530203E6102002EA7A2 /* MessageViewController.swift in Sources */,
+				84CD959E20406DEA0062527B /* FormatterExtension.swift in Sources */,
 				84724E5C2034767400649C25 /* AppDelegate.swift in Sources */,
+				8400B0F920472E1900509978 /* FloatExtension.swift in Sources */,
+				84026A772038CC50001E3693 /* CGMMainViewController.swift in Sources */,
+				8400B0F72047288700509978 /* EstadosTableViewCell.swift in Sources */,
+				84026A88203B1549001E3693 /* ImageSettingViewController.swift in Sources */,
+				84026A752038A612001E3693 /* MainViewController.swift in Sources */,
+				8400B0F220471A5400509978 /* EstadosViewController.swift in Sources */,
+				840C41132034E09C0049DCC4 /* UIViewExtension.swift in Sources */,
+				84AB4D5E20427A0C007185F7 /* HelpViewController.swift in Sources */,
+				84CD959720404BB10062527B /* ProcessMessage.swift in Sources */,
+				84F08D6B203E069B0072D24D /* DateExtension.swift in Sources */,
+				84026AA8203C3EC8001E3693 /* GaleriasDB.swift in Sources */,
+				84CD959B204054B70062527B /* MessageTableViewCell.swift in Sources */,
+				84026AB0203C602D001E3693 /* MensajeType.swift in Sources */,
+				84026AB4203C6F2F001E3693 /* ArchivosType.swift in Sources */,
+				84026AA6203C382C001E3693 /* PagosDB.swift in Sources */,
+				84026A93203B5ADE001E3693 /* OptionModel.swift in Sources */,
+				84026A95203B65AD001E3693 /* SelectOptionViewController.swift in Sources */,
+				840C41112034DD940049DCC4 /* UIColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,6 +656,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				84724E602034767400649C25 /* Base */,
+				08F671FB208BAEEF009C5770 /* es */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -156,6 +665,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				84724E652034767400649C25 /* Base */,
+				08F671FC208BAEF0009C5770 /* es */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -167,6 +677,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -224,6 +735,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -272,31 +784,44 @@
 		};
 		84724E6B2034767400649C25 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E65CA204305973512A4FE8D9 /* Pods-Club de Golf México.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Club de Golf México/Club de Golf México.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4URJ54RTED;
+				DEVELOPMENT_TEAM = BBJD87GN28;
 				INFOPLIST_FILE = "Club de Golf México/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "mx.com.webs.Club-de-Golf-Me-xico";
+				PRODUCT_BUNDLE_IDENTIFIER = mx.com.webs.ClubdeGolfMexico;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		84724E6C2034767400649C25 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 378305974ADC901D4565FE60 /* Pods-Club de Golf México.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Club de Golf México/Club de Golf México.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4URJ54RTED;
+				DEVELOPMENT_TEAM = BBJD87GN28;
 				INFOPLIST_FILE = "Club de Golf México/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "mx.com.webs.Club-de-Golf-Me-xico";
+				PRODUCT_BUNDLE_IDENTIFIER = mx.com.webs.ClubdeGolfMexico;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

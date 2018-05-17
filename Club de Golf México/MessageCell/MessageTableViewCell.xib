@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="250" id="KGk-i7-Jjw" customClass="MessageTableViewCell" customModule="Club_de_Golf_Me_xico" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="440" height="250"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="440" height="249.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_golfalert" translatesAutoresizingMaskIntoConstraints="NO" id="l2L-Dc-7uT">
+                        <rect key="frame" x="20" y="11" width="30" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="30" id="CF9-c0-fUq"/>
+                            <constraint firstAttribute="height" constant="30" id="VE1-Ew-1Ku"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="07:38" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="TzC-5n-5eH">
+                        <rect key="frame" x="10" y="45" width="50" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="7IV-MQ-Faw"/>
+                            <constraint firstAttribute="height" constant="21" id="YMa-ec-hnv"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.93333333330000001" green="0.61568627450000002" blue="0.36470588240000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UtF-7y-h3e">
+                        <rect key="frame" x="68" y="4" width="368" height="241.5"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qZA-g3-R97">
+                                <rect key="frame" x="0.0" y="218" width="368" height="23"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="23" id="ckJ-o8-pja"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="t7M-Xg-wsN">
+                                <rect key="frame" x="328" y="0.0" width="40" height="241"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="mkg-Q5-Glz"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="small_golf" translatesAutoresizingMaskIntoConstraints="NO" id="MfI-J2-GVM">
+                                <rect key="frame" x="292" y="176.5" width="76" height="65"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="76" id="UoC-m4-f5l"/>
+                                    <constraint firstAttribute="height" constant="65" id="twQ-p4-z7R"/>
+                                </constraints>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qyd-7U-fXo">
+                                <rect key="frame" x="320" y="8" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Yvy-u6-EsN"/>
+                                    <constraint firstAttribute="width" constant="40" id="f4B-Z2-7ha"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CkE-Pj-70G">
+                                <rect key="frame" x="8" y="8" width="308" height="188.5"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Golf Message">
+                                        <attributes>
+                                            <color key="NSColor" red="0.52941176470588236" green="0.26666666666666666" blue="0.054901960784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="24" name=".SFNSText"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="24" name=".SFNSText"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="This is the tst">
+                                        <attributes>
+                                            <font key="NSFont" size="16" name=".SFNSText"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.93333333330000001" green="0.61568627450000002" blue="0.36470588240000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="t7M-Xg-wsN" firstAttribute="top" secondItem="UtF-7y-h3e" secondAttribute="top" id="0Pr-c1-Mih"/>
+                            <constraint firstAttribute="trailing" secondItem="qZA-g3-R97" secondAttribute="trailing" id="5HD-Qk-s4C"/>
+                            <constraint firstItem="qZA-g3-R97" firstAttribute="leading" secondItem="UtF-7y-h3e" secondAttribute="leading" id="ANf-oj-jH3"/>
+                            <constraint firstItem="qyd-7U-fXo" firstAttribute="leading" secondItem="CkE-Pj-70G" secondAttribute="trailing" constant="4" id="AUF-Ju-Ktz"/>
+                            <constraint firstItem="qyd-7U-fXo" firstAttribute="top" secondItem="UtF-7y-h3e" secondAttribute="top" constant="8" id="Efn-Yg-IKT"/>
+                            <constraint firstAttribute="trailing" secondItem="t7M-Xg-wsN" secondAttribute="trailing" id="GDh-H5-dPj"/>
+                            <constraint firstAttribute="bottom" secondItem="MfI-J2-GVM" secondAttribute="bottom" id="GS8-r7-7fl"/>
+                            <constraint firstAttribute="bottom" secondItem="qZA-g3-R97" secondAttribute="bottom" id="H8R-bz-2FA"/>
+                            <constraint firstAttribute="bottom" secondItem="t7M-Xg-wsN" secondAttribute="bottom" id="HzA-fh-sPm"/>
+                            <constraint firstAttribute="trailing" secondItem="MfI-J2-GVM" secondAttribute="trailing" id="e6B-Y4-SzI"/>
+                            <constraint firstItem="CkE-Pj-70G" firstAttribute="leading" secondItem="UtF-7y-h3e" secondAttribute="leading" constant="8" id="vW8-ta-gqF"/>
+                            <constraint firstItem="MfI-J2-GVM" firstAttribute="top" secondItem="CkE-Pj-70G" secondAttribute="bottom" constant="-20" id="y2o-Jh-BQb"/>
+                            <constraint firstItem="CkE-Pj-70G" firstAttribute="top" secondItem="UtF-7y-h3e" secondAttribute="top" constant="8" id="yhO-zf-gWJ"/>
+                            <constraint firstAttribute="trailing" secondItem="qyd-7U-fXo" secondAttribute="trailing" constant="8" id="zEe-Yt-NRI"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="4"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="TzC-5n-5eH" firstAttribute="top" secondItem="l2L-Dc-7uT" secondAttribute="bottom" constant="4" id="06C-gp-qns"/>
+                    <constraint firstAttribute="bottom" secondItem="UtF-7y-h3e" secondAttribute="bottom" constant="4" id="A2c-sa-9a5"/>
+                    <constraint firstItem="TzC-5n-5eH" firstAttribute="centerX" secondItem="l2L-Dc-7uT" secondAttribute="centerX" id="D8V-Oi-gwQ"/>
+                    <constraint firstItem="UtF-7y-h3e" firstAttribute="leading" secondItem="TzC-5n-5eH" secondAttribute="trailing" constant="8" id="G5c-Rg-Ifh"/>
+                    <constraint firstItem="UtF-7y-h3e" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="4" id="Y1Q-AK-5Hz"/>
+                    <constraint firstItem="l2L-Dc-7uT" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="cjN-M2-Eqk"/>
+                    <constraint firstItem="l2L-Dc-7uT" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="gS7-sj-EaZ"/>
+                    <constraint firstAttribute="trailing" secondItem="UtF-7y-h3e" secondAttribute="trailing" constant="4" id="ljG-Gc-X10"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="areaBackImageView" destination="MfI-J2-GVM" id="2jY-es-XCb"/>
+                <outlet property="areaImageView" destination="l2L-Dc-7uT" id="JGK-cV-IKg"/>
+                <outlet property="bottomBackImageView" destination="qZA-g3-R97" id="O9X-CI-z1Y"/>
+                <outlet property="leftBackImageView" destination="t7M-Xg-wsN" id="uCh-Ez-hAD"/>
+                <outlet property="messageBodyLabel" destination="CkE-Pj-70G" id="JtI-ja-9WK"/>
+                <outlet property="messageContainer" destination="UtF-7y-h3e" id="F5o-vh-ADu"/>
+                <outlet property="timeLabel" destination="TzC-5n-5eH" id="kcY-HI-DN8"/>
+                <outlet property="typeImageView" destination="qyd-7U-fXo" id="c8w-GD-dqg"/>
+            </connections>
+            <point key="canvasLocation" x="85" y="81"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icon_golfalert" width="103" height="95"/>
+        <image name="small_golf" width="76" height="65"/>
+    </resources>
+</document>
